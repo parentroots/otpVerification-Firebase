@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OTP Verification FireBase</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_your_phone_number_and_check_message_box_we_sent_a_4_digit_otp">Enter your phone number and check message box we sent a 4 digit OTP</string>
+    <string name="_880">+880</string>
+    <string name="num_text">17***********</string>
+    <string name="send_otp_btn_text">Send OTP</string>
+</resources>
