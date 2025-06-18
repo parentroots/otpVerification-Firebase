@@ -17,7 +17,7 @@
         >
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_marginTop="140dp"
             android:src="@drawable/phone" />
@@ -52,7 +52,7 @@
             android:layout_marginEnd="20dp"
             android:gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@color/white"
+            android:background="@drawable/btn_bg"
             >
 
             <TextView
@@ -61,6 +61,7 @@
                 android:text="@string/_880"
                 android:textSize="18sp"
                 android:gravity="center"
+                android:textColor="@android:color/white"
                 />
             <EditText
                 android:id="@+id/edNumber"
@@ -69,6 +70,8 @@
                 android:gravity="center"
                 android:hint="@string/num_text"
                 android:layout_marginStart="10dp"
+                android:textColorHint="@android:color/white"
+                android:textColor="@android:color/white"
                 android:background="@null"
                 android:textSize="18sp"
                 android:imeOptions="actionNext"
